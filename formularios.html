@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Aqui aclaramos que la version e HTML usada es la 5 -->
+<html lang="es">
+<!-- Aclarar el tipo de contenido y el idioma-->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Aclarar el tipo de contenido -->
+    <meta charset="utf-8">
+    <!-- Charset UTF-8 For The Win pues representa todos los lenguajes del mundo -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Compatibilidad con el navegador Edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Ajuste de punto de vista asi como no poder hacer zoom -->
+    <meta name="description" content="">
+    <!-- Descripcion del contenido para indexado por parte de los WebCrawlers -->
+    <meta name="author" content="">
+    <!-- Nombre del Autor -->
+    <link rel="icon" href="public/favicon.ico">
+    <!-- Colocar aqui vestro icono para la página web -->
+    <title>Plantilla de ejemplo</title>
+    <!-- Titulo -->
+
+    <!-- Ahora cargamos todos los archivos CSS y los necesarios JS (solo los imprescindibles o cargará la página muy lentamente) -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="public/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="public/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Estilos personalizados que podeis modificar -->
+    <link href="public/plantilla-taller.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- En el cuerpo colocamos todas las etiquetas que van a definir la estructura de nuestra web-->
+    <div class="container">
+        <h1>Formulario Ejemplo 1</h1>
+        <form>
+            <div class="form-group">
+                <label for="inputEmail1">Email</label>
+                <input type="email" class="form-control" id="inputEmail1" placeholder="Email" name="inputEmail1">
+            </div>
+            <div class="form-group">
+                <label for="inputPassword1">Password</label>
+                <input type="password" class="form-control" id="inputPassword1" placeholder="Password" name="inputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="inputFile1">Archivo</label>
+                <input type="file" id="inputFile1" name="inputFile1">
+                <p class="help-block">Fichero con la imagen de perfil o avatar.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Recordar mi cuenta
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button><!-- Un Boton puede trabajar como un input "submit" porque por detras javascript hace magia -->
+        </form>
+
+        <h1>Formulario en linea</h1>
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="inputName1">Nombre</label>
+                <input type="text" class="form-control" id="inputName1"  name="inputName1" placeholder="AATUZ">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail2">Email</label>
+                <input type="email" class="form-control" id="inputEmail2" placeholder="aatuz@unizar.es" name="inputEmail2">
+            </div>
+            <button type="submit" class="btn btn-default">Crear cuenta</button>
+        </form>
+
+        <h1>Formulario con simbolos</h1>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="inputAmount1">Cantidad (en dolares)</label>
+                <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" class="form-control" id="inputAmount1" placeholder="Cantidad" name="inputAmount1">
+                    <div class="input-group-addon">.00</div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar dinero</button>
+        </form>
+
+        <h1>Formulario Ejemplo Inicio Sesion </h1>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Recordarme
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Iniciar Sesion</button>
+                </div>
+            </div>
+        </form>
+        <h1>Area de Texto</h1>
+        <form>
+            <div class="form-group">
+                <div class="input-group">
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Publicar</button>
+        </form>
+    </div><!-- /container -->
+
+
+
+    <!-- Los scripts es mejor cargarlos al final para que la página cargue más rápido -->
+
+
+    <!-- Bootstrap core JavaScript ================================================== -->
+
+    <!-- Cargar jQuery: una libreria que facilita la vida a la hora de programar javascript -->
+    <script src="public/jquery.js"></script>
+
+    <!-- Cargar los scripts que utiliza bootstrap -->
+    <script src="public/bootstrap.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="public/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

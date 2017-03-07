@@ -1,0 +1,106 @@
+<!DOCTYPE html><!-- Aqui aclaramos que la version e HTML usada es la 5 -->
+<html lang="es"><!-- Aclarar el tipo de contenido y el idioma-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- Aclarar el tipo de contenido -->
+        <meta charset="utf-8"><!-- Charset UTF-8 For The Win pues representa todos los lenguajes del mundo -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Compatibilidad con el navegador Edge -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- Ajuste de punto de vista asi como no poder hacer zoom -->
+        <meta name="description" content=""><!-- Descripcion del contenido para indexado por parte de los WebCrawlers -->
+        <meta name="author" content=""> <!-- Nombre del Autor -->
+        <link rel="icon" href="public/favicon.ico"> <!-- Colocar aqui vestro icono para la página web -->
+        <title>Plantilla de ejemplo</title><!-- Titulo -->
+
+        <!-- Ahora cargamos todos los archivos CSS y los necesarios JS (solo los imprescindibles o cargará la página muy lentamente) -->
+
+        <!-- Bootstrap core CSS -->
+        <link href="public/css/bootstrap.min.css" rel="stylesheet">
+        <link href="public/css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="public/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Estilos personalizados que podeis modificar -->
+        <link href="public/plantilla-taller.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- En el cuerpo colocamos todas las etiquetas que van a definir la estructura de nuestra web-->
+        <div class="container">
+            <h1>
+                <a href="http://getbootstrap.com/components/">Lista completa de componentes</a>
+            </h1>
+
+
+            <h1>Alertas</h1>
+            <p>Pueden ser utiles al fallar en iniciar sesion o recibir mensajes etc</p>
+            <div class="alert alert-warning alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>¡Cuidado!</strong> Es muy importante que leas este mensaje de alerta.
+            </div>
+            <h1>Barras de progreso</h1>
+            <div class="progress progress-striped active">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                    <span class="sr-only">45% completado</span>
+                </div>
+            </div>
+
+
+
+            <h1>Grupo de Botones</h1>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Center Align">
+                    <span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Right Align">
+                    <span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <h1>Menu Descendente</h1>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li class="dropdown-header">Acciones</li>
+                    <li><a href="#">Accion 1</a></li>
+                    <li><a href="#">Accion 2</a></li>
+                    <li><a href="#">Accion 3</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Enlaces</li>
+                    <li><a href="#">Link separado</a></li>
+                </ul>
+            </div>
+
+            <h1>Barras de Navegacion</h1>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Perfil</a></li>
+                <li role="presentation"><a href="#">Mensajes</a></li>
+                <li role="presentation"><a href="#">Blog</a></li>
+            </ul>
+
+
+        </div><!-- /container -->
+
+
+
+        <!-- Los scripts es mejor cargarlos al final para que la página cargue más rápido -->
+        
+
+        <!-- Bootstrap core JavaScript ================================================== -->
+
+        <!-- Cargar jQuery: una libreria que facilita la vida a la hora de programar javascript -->
+        <script src="public/jquery.js"></script>
+
+        <!-- Cargar los scripts que utiliza bootstrap -->
+        <script src="public/js/bootstrap.min.js"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="public/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
+

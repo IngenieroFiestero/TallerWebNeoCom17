@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- Aqui aclaramos que la version e HTML usada es la 5 -->
+<html lang="es">
+<!-- Aclarar el tipo de contenido y el idioma-->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Aclarar el tipo de contenido -->
+    <meta charset="utf-8">
+    <!-- Charset UTF-8 For The Win pues representa todos los lenguajes del mundo -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Compatibilidad con el navegador Edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Ajuste de punto de vista asi como no poder hacer zoom -->
+    <meta name="description" content="">
+    <!-- Descripcion del contenido para indexado por parte de los WebCrawlers -->
+    <meta name="author" content="">
+    <!-- Nombre del Autor -->
+    <link rel="icon" href="public/favicon.ico">
+    <!-- Colocar aqui vestro icono para la página web -->
+    <title>Plantilla de ejemplo</title>
+    <!-- Titulo -->
+
+    <!-- Ahora cargamos todos los archivos CSS y los necesarios JS (solo los imprescindibles o cargará la página muy lentamente) -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="public/ie10-viewport-bug-workaround.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- En el cuerpo colocamos todas las etiquetas que van a definir la estructura de nuestra web-->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Abrir Navegacion</span>
+                    <!-- sr-only es para screen readers -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand
+                        <!-- <img alt="Brand" src="...">  Es posible utilizar una imagen como logo-->
+                    </a>
+                    <!-- Icono de la web -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Foro</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navegacion <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Desarrolladores</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Buscar</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Perfil <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Mi Perfil</a></li>
+                            <li><a href="#">Privacidad</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Seguridad</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Esto es un jumbotron</h1>
+            <p>Muy util para mostrar informacion importante</p>
+        </div>
+    </div>
+    <div class="container">
+        <h1><a href="http://getbootstrap.com/components/#navbar">Barra de navegacion</a></h1>
+        <p>Mirar siempre la documentacion oficial es muy util y vienen muchos ejemplos</p>
+        <h1>Migas de pan</h1>
+        <p>Son para que el usuario sepa en todo momento en que zona de la web se encuentra y poder cambiar rapidamente de una
+            seccion a otra</p>
+        <ol class="breadcrumb">
+            <li><a href="#">Foro</a></li>
+            <li><a href="#">Hilo Libre</a></li>
+            <li class="active">Programacion basica web</li>
+        </ol>
+        <h1>Imagenes en miniatura</h1>
+        <p>Usadas para mostrar anuncios, descripciones de imagenes...</p>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="public/images/aatuz.png" alt="AATUZ">
+                    <div class="caption">
+                        <h3>Logo de la aatuz</h3>
+                        <p>Descripcion de la imagen sobre la aatuz</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="public/images/aatuz.png" alt="AATUZ">
+                    <div class="caption">
+                        <h3>Etiqueta</h3>
+                        <p>Descripcion de la imagen sobre la aatuz</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="public/images/aatuz.png" alt="AATUZ">
+                    <div class="caption">
+                        <h3>Etiqueta</h3>
+                        <p>Descripcion de la imagen sobre la aatuz</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1> Paginacion</h1>
+        <p>Cuando tienes un blog, foro etc y tienes varias entradas que no caben en una misma pagina es necesario el uso de
+            un paginador</p>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /container -->
+    <!-- Los scripts es mejor cargarlos al final para que la página cargue más rápido -->
+
+
+    <!-- Bootstrap core JavaScript ================================================== -->
+
+    <!-- Cargar jQuery: una libreria que facilita la vida a la hora de programar javascript -->
+    <script src="public/jquery.js"></script>
+
+    <!-- Cargar los scripts que utiliza bootstrap -->
+    <script src="public/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="public/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
